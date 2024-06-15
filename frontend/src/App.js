@@ -10,6 +10,7 @@ import PhotoUpload from './PhotoUpload';
 import PhotoView from './PhotoView';
 import SendDMPage from './SendDMPage';
 import PostEdit from './PostEdit';
+import DMPage from './DMPage';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <Route path="/photoview" element={<PhotoView />} />
       <Route path="/postedit" element={<PostEdit />} />
       <Route path="/sendDM" element={<SendDMPage />} />
+      <Route path="/DMPage" element={<DMPage />} />
     </Routes>
   );
 };

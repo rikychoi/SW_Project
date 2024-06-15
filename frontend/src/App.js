@@ -23,6 +23,7 @@ const App = () => {
       <Route path="/photoupload" element={<PhotoUpload />} />
       <Route path="/photoview" element={<PhotoView />} />
       <Route path="/sendDM" element={<SendDMPage />} />
+      <Route path="/postedit" element={<PostEdit />} />
     </Routes>
   );
 };

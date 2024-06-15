@@ -8,6 +8,7 @@ import PhotoListPage from './PhotolistPage';
 import UserListPage from './UserlistPage';
 import PhotoUpload from './PhotoUpload';
 import PhotoView from './PhotoView';
+import SendDMPage from './SendDMPage';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Route path="/userlist" element={<UserListPage />} />
       <Route path="/photoupload" element={<PhotoUpload />} />
       <Route path="/photoview" element={<PhotoView />} />
+      <Route path="/sendDM" element={<SendDMPage />} />
     </Routes>
   );
 };

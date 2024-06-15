@@ -1,0 +1,111 @@
+.screen {
+  background-color: #f4f3f1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen .send-DM {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #666666;
+  border-radius: 24px;
+  height: 462px;
+  width: 640px;
+  margin: auto;
+}
+
+.screen .div {
+  height: 382px;
+  left: 56px;
+  position: relative;
+  top: 40px;
+  width: 528px;
+}
+
+.screen .text-wrapper-2 {
+  color: #333333;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  height: 48px;
+  left: 238px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-field .input {
+  width: 527px;
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.screen .text-field {
+  border: 1px solid;
+  border-color: #666666;
+  border-radius: 12px;
+  height: 247px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 54px;
+  width: 528px;
+}
+
+.screen .label {
+  color: #666666;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 12px;
+}
+
+.screen .button {
+  all: unset;
+  background-color: #595959;
+  border-radius: 40px;
+  box-sizing: border-box;
+  height: 64px;
+  width: 528px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 595px;
+}
+
+.screen .button .frame {
+  height: 33px;
+  left: 236px;
+  position: relative;
+  top: 8px;
+  width: 57px;
+}
+
+.screen .button .send {
+  color: #ffffff;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 22px;
+  font-weight: 500;
+  height: 33px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+}

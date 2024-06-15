@@ -1,0 +1,243 @@
+.DM-page {
+  height: 1599px;
+  position: relative;
+  width: 1440px;
+}
+
+.DM-page .links {
+  align-items: flex-end;
+  display: inline-flex;
+  gap: 40px;
+  left: 120px;
+  position: absolute;
+  top: 28px;
+}
+
+.DM-page .text-wrapper {
+  color: #111111;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.DM-page .div {
+  color: #666666cc;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.DM-page .login-sign-up {
+  align-items: center;
+  display: inline-flex;
+  gap: 16px;
+  justify-content: center;
+  left: 1302px;
+  position: absolute;
+  top: 16px;
+}
+
+.DM-page .button-instance {
+  border: 1px solid !important;
+  border-radius: 8px !important;
+  height: 40px !important;
+  position: relative !important;
+  width: 98px !important;
+}
+
+.DM-page .design-component-instance-node {
+  left: 20px !important;
+  top: 8px !important;
+}
+
+.DM-page .button-2 {
+  font-family: "Poppins-Regular", Helvetica !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+
+.DM-page .divider {
+  background-color: #d4d4d4;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 71px;
+  width: 1440px;
+}
+
+.DM-page .background {
+  background-color: #f3f2f0;
+  height: 1527px;
+  left: 0;
+  position: absolute;
+  top: 72px;
+  width: 1440px;
+}
+
+.DM-page .DM {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #666666;
+  border-radius: 24px;
+  height: 462px;
+  left: 152px;
+  overflow: hidden;
+  position: absolute;
+  top: 132px;
+  width: 1135px;
+}
+
+.DM-page .overlap-group {
+  height: 407px;
+  left: 53px;
+  position: relative;
+  top: 15px;
+  width: 1029px;
+}
+
+.DM-page .frame-2 {
+  height: 382px;
+  left: 0;
+  position: absolute;
+  top: 25px;
+  width: 1029px;
+}
+
+.DM-page .text-field {
+  border: 1px solid;
+  border-color: #666666;
+  border-radius: 12px;
+  height: 247px;
+  left: -15px;
+  overflow: hidden;
+  position: absolute;
+  top: 33px;
+  width: 1060px;
+}
+
+.DM-page .message {
+  color: #666666;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 12px;
+}
+
+.DM-page .frame-wrapper {
+  all: unset;
+  background-color: #595959;
+  border-radius: 40px;
+  box-sizing: border-box;
+  height: 64px;
+  left: 63px;
+  overflow: hidden;
+  position: absolute;
+  top: 318px;
+  width: 367px;
+}
+
+.DM-page .div-wrapper {
+  height: 33px;
+  left: 156px;
+  position: relative;
+  top: 15px;
+  width: 57px;
+}
+
+.DM-page .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 22px;
+  font-weight: 500;
+  height: 33px;
+  left: -7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+}
+
+.DM-page .button-3 {
+  all: unset;
+  background-color: #cbc4b9;
+  border-radius: 40px;
+  box-sizing: border-box;
+  height: 64px;
+  left: 582px;
+  overflow: hidden;
+  position: absolute;
+  top: 318px;
+  width: 367px;
+}
+
+.DM-page .text-wrapper-3 {
+  color: #000000;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 22px;
+  font-weight: 500;
+  height: 33px;
+  left: -2px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+}
+
+.DM-page .text-wrapper-4 {
+  color: #333333;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  height: 48px;
+  left: 470px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.DM-page .view {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #111111;
+  border-radius: 8px;
+  height: 40px;
+  left: 700px;
+  overflow: hidden;
+  position: absolute;
+  top: 46px;
+  width: 40px;
+}
+
+.DM-page .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  left: 8px;
+  position: relative;
+  top: 8px;
+}
+
+.DM-page .icons-instance {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}

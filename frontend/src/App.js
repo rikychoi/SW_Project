@@ -8,7 +8,10 @@ import PhotoListPage from './PhotolistPage';
 import UserListPage from './UserlistPage';
 import PhotoUpload from './PhotoUpload';
 import PhotoView from './PhotoView';
-import PostEdit from './PostEdit'
+import SendDMPage from './SendDMPage';
+import PostEdit from './PostEdit';
+import DMPage from './DMPage';
+
 const App = () => {
   return (
     <Routes>
@@ -22,6 +25,8 @@ const App = () => {
       <Route path="/photoupload" element={<PhotoUpload />} />
       <Route path="/photoview" element={<PhotoView />} />
       <Route path="/postedit" element={<PostEdit />} />
+      <Route path="/sendDM" element={<SendDMPage />} />
+      <Route path="/DMPage" element={<DMPage />} />
     </Routes>
   );
 };

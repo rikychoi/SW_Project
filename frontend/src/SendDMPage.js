@@ -4,10 +4,28 @@ import "./css/sendDMPage.css";
 const SendDMPage = () => {
     const [message, setMessage] = useState("");
 
-    const handleSendMessage = () => {
+    const handleSendMessage = async () => {
         if (message.trim()) {
-            alert(`Message sent: ${message}`);
-            setMessage("");
+            try {
+                const response = await fetch('http://localhost:5000/send_dm', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message }),
+                });
+
+                const data = await response.json();
+                if (response.ok) {
+                    alert(`Message sent: ${data.message}`);
+                    setMessage("");
+                } else {
+                    alert(`Error: ${data.error}`);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred while sending the message.');
+            }
         } else {
             alert("Message is empty");
         }

@@ -232,5 +232,17 @@ def get_usernames():
     username_list = [user['username'] for user in usernames]
     return jsonify(username_list), 200
 
+@app.route('/send_dm', methods=['POST'])
+def send_dm():
+    data = request.json
+    message = data.get('message')
+    
+    if not message:
+        return jsonify({'error': 'No message provided'}), 400
+
+    print(f"Message received: {message}")
+
+    return jsonify({'success': True, 'message': 'Message sent successfully'})
+
 if __name__ == '__main__':
     app.run(debug=True, host='localhost', port=5000)
